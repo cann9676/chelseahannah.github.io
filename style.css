@@ -118,7 +118,7 @@
     position: absolute;
     right: 55%;
     transform: translateX(-50%);
-    transform: translateY(200%);
+    transform: translateY(170%);
     font-family: "San Francisco", sans-serif;
     
   }
@@ -138,4 +138,28 @@
     left: 50%;
     height: auto;
     position: absolute;
+  }
+
+  .appStoreIcon{
+    display: block;
+    padding: 50px 0px;
+    top: 150px;
+    left: 70px;
+    right: 100px;
+    width: 55%;
+    height: auto;
+    position: absolute;
+  }
+
+  .bottomLine{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+    font-family: "San Francisco", sans-serif;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: black;
   }
