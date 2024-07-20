@@ -163,7 +163,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translateY(650%);
+    transform: translateY(500%);
     text-decoration: none;
     color: black;
   }
