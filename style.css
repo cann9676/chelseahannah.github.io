@@ -340,3 +340,20 @@
     font-weight: bold;
     margin-left: 5px;
   }
+
+  /* Add this rule to handle the anchor elements */
+  .nav-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  /* Remove conflicting styles */
+  nav ul li a {
+    display: flex !important; /* Override existing inline-block */
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important;
+    color: inherit !important;
+  }
