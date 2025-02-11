@@ -62,6 +62,18 @@
     right: 0; /* position relative to .logo-container */
     
   }
+
+  .privacy-link:hover {
+    color: blue; /* Change color on hover */
+  }
+
+  .PrivacyLogo {
+    display: inline-block;
+    width: 30px; /* Set the same size as other icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between icon and text */
+  }
+
  
   .logoImages1{
     position: absolute; /* position logos over nav */
@@ -205,17 +217,7 @@
     font-size: 16px; /* Ensure font size is consistent */
   }
 
-  .privacy-link:hover {
-    color: blue; /* Change color on hover */
-  }
-
-  .PrivacyLogo {
-    display: inline-block;
-    width: 30px; /* Set the same size as other icons */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Space between icon and text */
-  }
-
+  
   /* Base Styles */
   body {
     margin: 0;
