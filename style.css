@@ -140,15 +140,14 @@
     position: absolute;
   }
 
-  .appStoreIcon{
+  .appStoreIcon {
     display: block;
-    padding: 50px 0px;
-    top: 200px;
-    left: 70px;
-    right: 100px;
-    width: 40%;
-    height: auto;
-    position: absolute;
+    padding: 10px 0; /* Adjust padding as needed */
+    width: 150px; /* Set a specific width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Change to relative for better control */
+    left: 50%; /* Center the icon */
+    transform: translateX(-50%); /* Centering adjustment */
   }
 
   .bottomLine{
