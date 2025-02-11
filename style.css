@@ -215,3 +215,92 @@
     height: auto; /* Maintain aspect ratio */
     margin-right: 5px; /* Space between icon and text */
   }
+
+  /* Base Styles */
+  body {
+    margin: 0;
+    font-family: "San Francisco", sans-serif;
+  }
+
+  .hero {
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+  }
+
+  .social-icon:hover {
+    opacity: 0.8;
+  }
+
+  /* Content Layout */
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .app-preview {
+    width: 100%;
+    max-width: 400px;
+    justify-self: center;
+  }
+
+  /* App Cards */
+  .app-card {
+    background: #0056b3;
+    border-radius: 14px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .download-badge {
+    width: 150px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .privacy-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
