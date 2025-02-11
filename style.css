@@ -444,7 +444,7 @@
   .nav-text {
     font-family: "San Francisco", sans-serif;
     font-size: 14px;
-    color: #0056b3;
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 500;
