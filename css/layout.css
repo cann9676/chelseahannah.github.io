@@ -1,11 +1,51 @@
 .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: start;
+  justify-items: center;
 }
 
-/* ... rest of layout styles ... */
+.app-preview {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+  max-width: 400px;
+  height: auto;
+}
+
+.app-card.book-progress {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.app-card.bau {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.download-badge {
+  width: 150px;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.app-card.book-progress + a, 
+.app-card.bau + a {
+  justify-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Position download badges below their respective cards */
+.app-card.book-progress + a {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.app-card.bau + a {
+  grid-column: 1;
+  grid-row: 4;
+}

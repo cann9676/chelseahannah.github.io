@@ -1,7 +1,7 @@
 .app-card {
   flex: 1;
-  width: 280px;
-  min-height: 300px;
+  width: 200px;
+  min-height: 159px;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 14px;
@@ -12,22 +12,36 @@
 }
 
 .book-progress {
-  background: #1D3557; /* Deep Bauhaus blue */
-  color: red;
+  background: #0049d7;
+  color: white;
 }
 
 .bau {
-  background: #E63946; /* Bauhaus red */
+  background: #0049d7;
   color: white;
 }
 
 .app-card h3 {
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-family: "San Francisco", sans-serif;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .app-card p {
   color: white;
   opacity: 0.9;
+  margin-top: 0;
+}
+
+.download-badge {
+  display: block;
+  width: 150px;
+  margin: 1rem auto 0;
+  margin-top: auto; /* Push to bottom */
+}
+
+.app-card a {
+  margin-top: auto; /* Push link to bottom */
+  display: block;
 }
