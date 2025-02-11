@@ -472,18 +472,38 @@
   .content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    align-items: flex-start;
+    gap: 3rem;
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
   }
 
   .app-preview {
-    max-width: 300px;
+    flex: 0 0 40%;
+    max-width: 400px;
     height: auto;
+    order: 2;
+    position: relative;
+  }
+
+  .app-card {
+    position: relative;
+    width: 280px;
     margin-bottom: 2rem;
+  }
+
+  /* Remove these conflicting absolute positioning styles */
+  .book-progress {
+    position: relative;
+    transform: none;
+    right: auto;
+  }
+
+  .bau {
+    position: relative;
+    transform: none;
+    right: auto;
   }
 
   .app-card {
