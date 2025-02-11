@@ -297,6 +297,180 @@
   /* Content Layout */
   .content-wrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+  }
+
+  .app-preview {
+    flex: 0 0 40%;
+    max-width: 400px;
+    height: auto;
+    margin-left: 2rem;
+    order: 2;
+  }
+
+  .app-card {
+    flex: 0 0 45%;
+    min-width: 280px;
+    max-width: 400px;
+    margin: 1rem;
+    order: 1;
+  }
+
+  /* Remove these conflicting styles */
+  .AppPhoto {
+    display: none; /* or remove this entire block */
+  }
+
+  .appStoreIcon {
+    display: block;
+    padding: 50px 0px; /* Restore original padding */
+    top: 200px; /* Restore original top position */
+    left: 70px; /* Restore original left position */
+    right: 100px; /* Restore original right position */
+    width: 40%; /* Restore original width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Restore original positioning */
+  }
+
+  .bottomLine{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+    font-family: "San Francisco", sans-serif;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(500%);
+    text-decoration: none;
+    color: black;
+  }
+
+  .book-progress {
+    display: block;
+    background: #0056b3;
+    padding: 10px 18px;
+    margin: auto;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    right: 55%;
+    transform: translateX(-50%);
+    transform: translateY(100%);
+    font-family: "San Francisco", sans-serif;
+    z-index: 2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .book-progress h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "consolas", sans-serif;
+    color: #ffffff;
+  }
+
+  .privacy-link {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing as needed */
+    font-family: "San Francisco", sans-serif;
+    color: black; /* Change color as needed */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+    font-size: 16px; /* Ensure font size is consistent */
+  }
+
+  
+  /* Base Styles */
+  body {
+    margin: 0;
+    font-family: "San Francisco", sans-serif;
+  }
+
+  .hero {
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(95%) saturate(2000%) hue-rotate(210deg) brightness(90%) contrast(97%);
+  }
+
+  .nav-text {
+    font-family: "San Francisco", sans-serif;
+    font-size: 14px;
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+  }
+
+  .nav-item:hover .nav-icon {
+    transform: translateY(-2px);
+  }
+
+  .nav-item:hover .nav-text {
+    color: #0056b3;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+  }
+
+  .social-icon:hover {
+    opacity: 0.8;
+  }
+
+  /* Content Layout */
+  .content-wrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
