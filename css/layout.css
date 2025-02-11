@@ -55,3 +55,54 @@
   color: #333;
   margin: 1rem 0;
 }
+.privacy-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.privacy-content h1 {
+  color: #0049d7;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "San Francisco", sans-serif;
+}
+
+.privacy-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.privacy-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: "San Francisco", sans-serif;
+}
+
+.privacy-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.privacy-text p {
+  margin-bottom: 1rem;
+}
+
+.privacy-text p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section h2 .privacy-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.privacy-section h2 .privacy-link:hover {
+  color: #0049d7;
+}
