@@ -234,6 +234,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
   .logo {
@@ -242,10 +244,39 @@
 
   .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .nav-text {
+    font-family: "San Francisco", sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav-item:hover .nav-icon {
+    transform: translateY(-2px);
+  }
+
+  .nav-item:hover .nav-text {
+    color: #0056b3;
   }
 
   .social-icon {
