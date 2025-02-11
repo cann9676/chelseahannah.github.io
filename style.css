@@ -261,14 +261,16 @@
     height: 30px;
     margin-bottom: 5px;
     transition: transform 0.3s ease;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(95%) saturate(2000%) hue-rotate(210deg) brightness(90%) contrast(97%);
   }
 
   .nav-text {
     font-family: "San Francisco", sans-serif;
     font-size: 14px;
-    color: #333;
+    color: #0056b3;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-weight: 500;
   }
 
   .nav-item:hover .nav-icon {
