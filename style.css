@@ -167,7 +167,7 @@
 
   .book-progress {
     display: block;
-    background: blue;
+    background: #0056b3;
     padding: 10px 18px;
     margin: auto;
     text-decoration: none;
@@ -184,6 +184,7 @@
     z-index: 2;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    color: #ffffff;
   }
 
   .book-progress h3{
@@ -191,6 +192,7 @@
     justify-content: center;
     text-align: center;
     font-family: "consolas", sans-serif;
+    color: #ffffff;
   }
 
   .privacy-link {
