@@ -508,68 +508,2028 @@
 
   .app-card {
     flex: 1;
-    min-width: 280px;
-    max-width: 400px;
+    width: 280px;
+    min-height: 300px;
     padding: 1.5rem;
     margin: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    flex-grow: 1;
+  }
+  
+  .app-card a {
+    margin-top: auto;
+    display: block;
+  }
+  
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 
   .download-badge {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
-    margin-top: 1rem;
+    margin: 1rem auto 0;
   }
 
-  /* Footer */
-  .hero {
-    min-height: 100vh;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
   }
 
-  .content-wrapper {
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
     flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
-  .site-footer {
-    margin-top: auto;
-    width: 100%;
-    padding: 1rem 0;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
-    background-color: white;
-  }
-
-  .privacy-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 5px;
-  }
-
-  /* Add this rule to handle the anchor elements */
-  .nav-item a {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-decoration: none;
+    justify-content: space-between;
   }
 
-  /* Remove conflicting styles */
-  nav ul li a {
-    display: flex !important; /* Override existing inline-block */
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none !important;
-    color: inherit !important;
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
   }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app-card {
+    flex: 1;
+    width: 280px;
+    min-height: 250px; /* Ensure consistent height */
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .download-badge {
+    max-width: 150px;
+    height: auto;
+    margin: 1rem auto 0;
+  }
+
+  /* Specific card colors */
+  .book-progress {
+    background: #0056b3;
+    color: #ffffff;
+  }
+
+  .bau {
+    background: #c50101;
+    color: #ffffff;
+  }
+
+  .app
