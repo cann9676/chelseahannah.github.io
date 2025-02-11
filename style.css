@@ -27,9 +27,9 @@
   }
 
   nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 10px;
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 !important;
     font-family: "San Francisco", sans-serif;
     font-style: normal;
   }
@@ -256,12 +256,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .nav-icon {
     width: 30px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     transition: transform 0.3s ease;
     filter: brightness(0) saturate(100%) invert(27%) sepia(95%) saturate(2000%) hue-rotate(210deg) brightness(90%) contrast(97%);
   }
