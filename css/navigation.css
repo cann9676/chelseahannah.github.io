@@ -32,12 +32,21 @@ nav {
   min-width: 60px;
 }
 
+.nav-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
 .nav-icon {
   width: 25px;
   height: 25px;
   margin-bottom: 0.5rem;
   transition: transform 0.3s ease;
   filter: brightness(0);
+  display: block;
 }
 
 .nav-text {
@@ -45,6 +54,7 @@ nav {
   text-align: center;
   width: 100%;
   color: black;
+  display: block;
 }
 
 /* Media Queries for Responsive Design */
@@ -54,7 +64,7 @@ nav {
   }
 
   .logo {
-    width: 60px;
+    width: 80px;
   }
 
   .nav-links {
@@ -66,8 +76,8 @@ nav {
   }
 
   .nav-icon {
-    width: 22px;
-    height: 22px;
+    width: 40px;
+    height: 40px;
   }
 
   .nav-text {
@@ -85,12 +95,12 @@ nav {
   }
 
   .nav-icon {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     margin-bottom: 0.3rem;
   }
 
   .nav-text {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
