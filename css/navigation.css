@@ -5,19 +5,19 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem;
   background: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -28,23 +28,69 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;
-  width: 100%;
+  width: auto;
+  min-width: 60px;
 }
 
 .nav-icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin-bottom: 0.5rem;
   transition: transform 0.3s ease;
   filter: brightness(0);
-  display: block;
 }
 
 .nav-text {
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
   width: 100%;
-  display: block;
   color: black;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    padding: 0.8rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-item {
+    min-width: 50px;
+  }
+
+  .nav-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .nav-text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 0.8rem;
+  }
+
+  .nav-item {
+    min-width: 45px;
+  }
+
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0.3rem;
+  }
+
+  .nav-text {
+    font-size: 10px;
+  }
 }
