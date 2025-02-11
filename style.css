@@ -296,33 +296,37 @@
 
   /* Content Layout */
   .content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
     max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
+    margin: 0 auto;
   }
 
   .app-preview {
-    width: 100%;
-    max-width: 400px;
-    justify-self: center;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
   }
 
-  /* App Cards */
   .app-card {
-    background: #0056b3;
-    border-radius: 14px;
-    padding: 20px;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
 
   .download-badge {
-    width: 150px;
-    margin-top: 20px;
-    display: block;
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
   }
 
   /* Footer */
