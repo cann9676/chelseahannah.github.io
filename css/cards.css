@@ -5,10 +5,29 @@
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 14px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-/* ... rest of card styles ... */
+.book-progress {
+  background: #1D3557; /* Deep Bauhaus blue */
+  color: white;
+}
+
+.bau {
+  background: #E63946; /* Bauhaus red */
+  color: white;
+}
+
+.app-card h3 {
+  color: white;
+  font-family: "San Francisco", sans-serif;
+  font-weight: 600;
+}
+
+.app-card p {
+  color: white;
+  opacity: 0.9;
+}
