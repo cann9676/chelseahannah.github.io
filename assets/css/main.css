@@ -574,3 +574,66 @@ footer {
   text-align: center;
   border: 1px solid var(--border-color);
 }
+
+/* 12. Art Page Specifics */
+.art-page-container {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.art-card {
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.art-card-image {
+  aspect-ratio: 4/5;
+  background-color: #E6E0D4;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: opacity 0.3s ease;
+}
+
+.art-card:hover .art-card-image {
+  opacity: 0.9;
+}
+
+.art-card-meta {
+  font-size: 0.8rem;
+  color: #8C7B6B;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.art-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: var(--accent-color);
+}
+
+.art-card-desc {
+  font-size: 0.9rem;
+  color: #6B5D50;
+  line-height: 1.5;
+}
+
+.art-footer-note {
+  margin-top: 4rem;
+  text-align: center;
+  font-style: italic;
+  color: #8C7B6B;
+}
