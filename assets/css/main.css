@@ -521,6 +521,10 @@ footer {
   color: #4A4036;
 }
 
+.about-content p {
+  margin-bottom: 2rem;
+}
+
 .about-section {
   margin-top: 4rem;
 }
