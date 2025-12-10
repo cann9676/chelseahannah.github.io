@@ -506,3 +506,67 @@ footer {
 .in-progress-section {
   margin-top: 5rem;
 }
+
+/* 11. About Page Specifics */
+.about-page-container {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  max-width: 800px;
+  /* Narrower for reading */
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4A4036;
+}
+
+.about-section {
+  margin-top: 4rem;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  font-size: 1.05rem;
+}
+
+.service-list li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.service-list li::before {
+  content: "→";
+  color: var(--accent-color);
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill-item {
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #6B5D50;
+  font-weight: 500;
+}
+
+.contact-wrapper {
+  background: var(--secondary-bg);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
