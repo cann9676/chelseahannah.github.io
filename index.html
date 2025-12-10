@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="./assets/js/main.js" defer></script>
 </head>
+
 <body>
     <header>
         <a href="index.html" class="site-title">Hannah Studios</a>
@@ -19,11 +21,156 @@
     </header>
 
     <main>
-        <!-- TODO: Cinematic hero + sections -->
+        <!-- Section 1: Hero -->
+        <section class="hero-section">
+            <div class="container hero-layout">
+                <div class="hero-content-left">
+                    <span class="eyebrow">Indie iOS app studio</span>
+                    <h1>Hannah Studios</h1>
+                    <p class="hero-subheading">Indie iOS apps with a cinematic, creative point of view.</p>
+                    <p class="hero-text">I build and ship iOS apps that blend clean engineering, thoughtful UX, and an
+                        artist’s eye for detail.</p>
+                    <div class="hero-actions">
+                        <a href="apps.html" class="btn btn-primary">View apps</a>
+                        <a href="about.html" class="btn btn-ghost">About the studio</a>
+                    </div>
+                </div>
+                <div class="hero-visual-right">
+                    <div class="hero-frame">
+                        <div class="hero-image-placeholder">
+                            <!-- Cinematic photo or mockup goes here -->
+                        </div>
+                        <div class="frame-label">PANORAMIC FRAME · 65:24 · iOS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Apps Overview -->
+        <section class="apps-overview-section">
+            <div class="container">
+                <h2>Apps & Products</h2>
+                <p class="section-subtitle">Shipped iOS apps focused on photography, creativity, and everyday tools.</p>
+                <div class="apps-grid">
+                    <!-- Card 1: Pan65 -->
+                    <article class="app-card">
+                        <h3 class="app-name">Pan65</h3>
+                        <p class="app-desc">Cinematic panoramic camera</p>
+                        <div class="app-role">Role: Solo iOS dev · Product · Design</div>
+                        <div class="app-tech">SwiftUI · StoreKit · Design</div>
+                        <a href="apps.html" class="app-link">View details &rarr;</a>
+                    </article>
+
+                    <!-- Card 2: Slideshow Classic -->
+                    <article class="app-card">
+                        <h3 class="app-name">Slideshow Classic</h3>
+                        <p class="app-desc">Vintage slideshow maker</p>
+                        <div class="app-role">Role: Solo iOS dev · Product · Design</div>
+                        <div class="app-tech">SwiftUI · CoreImage · Design</div>
+                        <a href="apps.html" class="app-link">View details &rarr;</a>
+                    </article>
+
+                    <!-- Card 3: Book Progress -->
+                    <article class="app-card">
+                        <h3 class="app-name">Book Progress</h3>
+                        <p class="app-desc">Elegant reading tracker</p>
+                        <div class="app-role">Role: Solo iOS dev · Product · Design</div>
+                        <div class="app-tech">SwiftUI · CoreData · Charts</div>
+                        <a href="apps.html" class="app-link">View details &rarr;</a>
+                    </article>
+
+                    <!-- Card 4: BauCulator -->
+                    <article class="app-card">
+                        <h3 class="app-name">BauCulator</h3>
+                        <p class="app-desc">Neubrutalist calculator</p>
+                        <div class="app-role">Role: Solo iOS dev · Product · Design</div>
+                        <div class="app-tech">SwiftUI · Combine · Design</div>
+                        <a href="apps.html" class="app-link">View details &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Featured App (Pan65) -->
+        <section class="featured-app-section">
+            <div class="container featured-layout">
+                <div class="featured-image-container">
+                    <div class="featured-placeholder">
+                        <!-- Big app screenshot goes here -->
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <span class="eyebrow">Featured: Pan65</span>
+                    <h3>XPan-inspired panoramic camera</h3>
+                    <p>Pan65 brings the experience of shooting with a classic panoramic film camera to your iPhone,
+                        capturing ultra-wide cinematic shots with a distinct look.</p>
+                    <ul class="featured-details">
+                        <li>XPan-inspired panoramic camera</li>
+                        <li>Role: Product, design, development</li>
+                        <li>Tech: SwiftUI, AVFoundation, StoreKit</li>
+                        <li>Monetization: Subscription with free trial</li>
+                    </ul>
+                    <div class="featured-actions">
+                        <a href="apps.html" class="btn btn-primary">Read case study &rarr;</a>
+                        <a href="#" class="btn btn-secondary">View on App Store &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Art & Experiments -->
+        <section class="art-experiments-section">
+            <div class="container">
+                <h2>Art & Experiments</h2>
+                <p>Plein-air painting, photography, and UI experiments that feed the apps.</p>
+                <div class="art-preview-list">
+                    <a href="art.html" class="art-item">
+                        <div class="art-placeholder-thumb"></div>
+                        <span>Plein air – Beach study</span>
+                    </a>
+                    <a href="art.html" class="art-item">
+                        <div class="art-placeholder-thumb"></div>
+                        <span>Oil sketch – Evening light</span>
+                    </a>
+                    <a href="art.html" class="art-item">
+                        <div class="art-placeholder-thumb"></div>
+                        <span>Film photo – City at night</span>
+                    </a>
+                    <a href="art.html" class="art-item">
+                        <div class="art-placeholder-thumb"></div>
+                        <span>UI study – Reading tracker</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: About Preview -->
+        <section class="about-preview-section">
+            <div class="container">
+                <h2>About the studio</h2>
+                <p>Hannah Studios is an independent creative tech studio founded by a solo developer with a passion for
+                    film photography and clean code. I build tools that I want to use myself, focusing on longevity and
+                    user privacy.</p>
+                <a href="about.html" class="read-more-link">Read more &rarr;</a>
+            </div>
+        </section>
+
+        <!-- Section 6: Contact / CTA -->
+        <section class="contact-section">
+            <div class="container">
+                <p class="cta-text">Want to collaborate, hire me for iOS work, or talk about your app idea?</p>
+                <a href="mailto:your-email@example.com" class="btn btn-primary">Email Me</a>
+                <div class="social-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         &copy; 2025 Hannah Studios
     </footer>
 </body>
+
 </html>
